@@ -1,0 +1,151 @@
+/*inicio diseño general*/
+@font-face {
+  font-family:'DancingScript-Bold';
+  src: :url('DancingScript-Boldt.ttf')
+}
+
+h1{
+  font-family: 'DancingScript-Bold';
+  font-variant: small-caps;
+  font-weight: bold;
+}
+h3{
+  font-family: 'DancingScript-Bold';
+  font-variant: small-caps;
+  font-weight: bold;
+}
+p{
+  font-family: 'DancingScript-Bold',cursive;
+}
+body
+{
+  background-color:#02010a;
+
+}
+/*
+.contenido {
+    width: 900px;
+    margin: auto;
+}
+/*
+/*fin diseño general*/
+/*inicio header cabecera*/
+header {
+    padding: 5px;
+    background-color:#84817E;
+    color: white;
+    /*bordes redondeados*/
+    border-radius: 10px 10px 0px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow:2px 2px 2px #02010a;
+    font-size: 14px;
+    animation: miAnimacion 4s;
+    flex-wrap: wrap;
+
+
+}
+/*fin header cabecera*/
+
+/*estilos para la lista de navegacion con la etiqueta a*/
+a {outline: 0;}
+  a:link, a:visited {
+  	padding: 0 5px;
+  	text-decoration: none;
+  	color: rgb(249, 245, 242);
+    font-size: 165%;
+  }
+
+
+
+
+  div[id^='caja']{
+    border: 0px;
+    border: 0px;
+    border-style: solid;
+    border-color: black;
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+    padding:66.5px;
+    float: left;
+    font-size: 18px;
+    background-color:#C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    color: black;
+    font-family:'DancingScript-Bold',cursive;
+  }
+
+a href{
+  font-size: 10px;
+}
+.contenedor div img {
+width: 30%;
+float: left;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 20px;
+background-color:#E2C12C;
+
+}
+p{
+  color: black;
+}
+h3{
+  color: black;
+}
+#imagen1{
+  filter: blur(10px);
+  -webkit-box-shadow: 2px 2px 5px #02010a;
+ -moz-box-shadow: 2px 2px 5px #02010a;
+}
+
+#imagen2{
+filter: grayscale(100%);
+-webkit-box-shadow: 2px 2px 5px #02010a;
+-moz-box-shadow: 2px 2px 5px #02010a;
+}
+
+#imagen3{
+filter: sepia(90%);
+-webkit-box-shadow: 2px 2px 5px #02010a;
+-moz-box-shadow: 2px 2px 5px #02010a;
+}
+
+#imagen4{
+  filter: grayscale(100%);
+  -webkit-box-shadow: 2px 2px 5px #02010a;
+ -moz-box-shadow: 2px 2px 5px #02010a;
+}
+
+#imagen5{
+  -webkit-box-shadow: 2px 2px 5px #02010a;
+ -moz-box-shadow: 2px 2px 5px #02010a;
+}
+
+#imagen6{
+  filter: grayscale(100%);
+}
+@keyframes miAnimacion {
+
+  0%{margin-top: 150%}
+
+60%{margin-top: -5%}
+
+100%{margin-top: 0%}
+}
+
+@media (max-width:900px){
+  p{
+    color: red;
+  }
+}
+@media (min-width:421px) and (max-width:720px) {
+  p{
+    color: blue;
+  }
+
+}
